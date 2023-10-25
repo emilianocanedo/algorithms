@@ -20,11 +20,3 @@ class Hash:
     
     def hash(self, element):
         return (((self.a*element+self.b)%self.p)%self.m)
-    
-# fast test
-
-myhash = Hash(300)
-
-print(myhash.hash(6656504))
-print(myhash.hash(4349854))
-print(myhash.hash(543212))
